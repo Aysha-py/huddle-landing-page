@@ -92,7 +92,6 @@ nav button{
 }
 #huddle-item-text p, #huddle-item-text h1{
   width: 80%;
-  margin-bottom: 30px;
 }
 
  #growing-together,#your-users, #flowing-conversations{
@@ -224,6 +223,9 @@ align-items: flex-start;
     background-color:hsl(193, 100%, 96%) ;
     padding: 50px 80px;
   }
+  h1{
+  font-size:32px;
+}
   #about-huddle{
     display: grid;
     text-align: center;
@@ -291,6 +293,9 @@ footer {
   header{
     padding:50px 10px;
   }
+    h1{
+  font-size:24px;
+}
   nav img{
     width: 40%;
     height: auto;
