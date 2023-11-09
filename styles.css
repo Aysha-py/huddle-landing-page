@@ -1,4 +1,4 @@
-*{
+*,*::after,*::before{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,12 +18,12 @@ main{
 }
 p{
   font-weight: 400;
-  line-height: 2;
+  line-height:2;
   font-size:18px;
-  word-spacing: 4px;
+ 
 }
 h1{
-  font-size:24px;
+  font-size:48px;
 }
 button{
   font-size: 14px;
@@ -92,6 +92,7 @@ nav button{
 }
 #huddle-item-text p, #huddle-item-text h1{
   width: 80%;
+  margin-bottom: 30px;
 }
 
  #growing-together,#your-users, #flowing-conversations{
